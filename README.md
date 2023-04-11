@@ -25,7 +25,7 @@ Este proyecto proporciona una simple herramienta de cifrado y descifrado de text
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Siéntase libre de abrir una [issue](https://github.com/your-username/your-repo/issues) o crear un [pull request](https://github.com/your-username/your-repo/pulls) si encuentra algún error o desea agregar una nueva función.
+Las contribuciones son bienvenidas. Siéntase libre de abrir una [issue](https://github.com/jonathan20dev/Cifrador-de-texto/issues) o crear un [pull request](https://github.com/jonathan20dev/Cifrador-de-texto/pulls) si encuentra algún error o desea agregar una nueva función.
 
 ## Licencia
 
