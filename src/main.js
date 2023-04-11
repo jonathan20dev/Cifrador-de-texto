@@ -26,7 +26,7 @@ const KEYS_REVERSEENCRYPT = {
 };
 
 const isUpperCaseOrIsAccent = (text) => regexAccents.test(text) || regexUppercase.test(text);
-const toEncrypt = (text) => text.replace(/[eiou]/gi, (word) => KEYS_ENCRYPT[word]);
+const toEncrypt = (text) => text.replace(/[aeiou]/gi, (word) => KEYS_ENCRYPT[word]);
 const toReverseEncrypt = (text) => text.replace(/enter|imes|ai|ober|ufat/gi, (word) => KEYS_REVERSEENCRYPT[word]);
 
 function animate(textResult) {
