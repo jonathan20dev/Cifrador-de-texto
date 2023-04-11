@@ -12,23 +12,20 @@ function:
 */
 
 :root {
-  --dark-blue-100: #609ed4;
-  --dark-blue-200: #356ea9;
-  --dark-blue-300: #0a3b71;
-  --dark-blue-400: #072b61;
-  --dark-blue-500: #052051;
-  --light-blue-100: #f3f5fc;
-  --light-blue-200: #eff1fa;
-  --light-blue-300: #e9ecf8;
-  --light-blue-400: #aab2d5;
-  --light-blue-500: #757fb2;
-  --gray-100: #ced4da;
-  --gray-200: #adb5bd;
-  --gray-300: #868e96;
-  --gray-400: #495057;
-  --gray-500: #343a40;
+  --primary-100: #f0e4ff;
+  --primary-200: #d4b9ff;
+  --primary-300: #b68dff;
+  --primary-400: #9840ff;
+  --primary-500: #7a16f0;
+
+  --neutral-100: #f8f9fa;
+  --neutral-200: #e9ecef;
+  --neutral-300: #dee2e6;
+  --neutral-400: #ced4da;
+  --neutral-500: #adb5bd;
+
   font-family: 'Lato', sans-serif;
-  background: var(--light-blue-100);
+  background: var(--neutral-100);
 }
 
 * {
@@ -64,7 +61,7 @@ function:
 }
 
 textarea {
-  color: var(--dark-blue-300);
+  color: var(--primary-300);
   width: 100%;
   height: 100%;
   font-weight: 500;
@@ -79,7 +76,7 @@ textarea {
 }
 
 textarea::placeholder {
-  color: var(--dark-blue-300);
+  color: var(--primary-300);
 }
 
 .cta__ctaInfo {
@@ -100,7 +97,7 @@ textarea::placeholder {
 .cta_ctaInfowrapper p {
   font-size: 1.5rem;
   padding-left: 1vh;
-  color: var(--gray-400);
+  color: var(--neutral-500);
   transition: all 0.5s ease-in-out;
 }
 
@@ -145,7 +142,7 @@ textarea::placeholder {
   border-radius: 10px;
   border: none;
   min-height: 55px;
-  background-color: var(--dark-blue-300);
+  background-color: var(--primary-300);
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -153,18 +150,18 @@ textarea::placeholder {
 }
 
 .cta__ctaButton:hover {
-  border: 1px solid var(--dark-blue-500);
-  background-color: var(--dark-blue-200);
+  border: 1px solid var(--primary-500);
+  background-color: var(--primary-200);
 }
 
 .cta__ctaButton--grey {
   background-color: transparent;
-  color: var(--dark-blue-300);
-  border: 1px solid var(--dark-blue-300);
+  color: var(--primary-300);
+  border: 1px solid var(--primary-300);
 }
 
 .cta__ctaButton--grey:hover {
-  background-color: var(--dark-blue-100);
+  background-color: var(--primary-100);
   color: white;
 }
 
@@ -187,7 +184,7 @@ textarea::placeholder {
   text-align: center;
   padding-top: 3vh;
   font-size: 20px;
-  color: var(--gray-400);
+  color: var(--neutral-500);
   transition: all 0.5s ease-in-out;
 }
 
@@ -198,7 +195,7 @@ textarea::placeholder {
 }
 
 .result__paragraph {
-  color: var(--gray-400);
+  color: var(--neutral-500);
   padding-bottom: 3vh;
   line-height: 150%;
 }
@@ -248,10 +245,10 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   position: absolute;
-  background-color: var(--light-blue-100);
+  background-color: var(--neutral-100);
   position: absolute;
   top: -110%;
-  color: var(--dark-blue-300);
+  color: var(--primary-300);
   transition: all 0.5s ease-in-out;
   height: 100%;
   opacity: 1;
@@ -302,7 +299,7 @@ textarea::placeholder {
 
   .active.result {
     height: auto;
-    background-image: url('../assets/ncypt.gif');
+    background-image: url('https://melmagazine.com/wp-content/uploads/2018/08/1oW5-3epMX2BNg_dgbUqXjw.gif');
     background-size: auto;
     background-position: top;
     background-repeat: no-repeat;
