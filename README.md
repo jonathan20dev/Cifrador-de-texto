@@ -2,6 +2,10 @@
 
 Este proyecto proporciona una simple herramienta de cifrado y descifrado de texto con un algoritmo personalizado implementado en JavaScript.
 
+<p align="center" margin-bottom="10px">
+  <img src="https://user-images.githubusercontent.com/84600029/231252082-220be8cc-268f-4c62-bd22-703ba3abc741.png">
+</p>
+
 ## Características
 
 - Cifrado de texto
@@ -14,8 +18,8 @@ Este proyecto proporciona una simple herramienta de cifrado y descifrado de text
 1. Clone el repositorio o descargue los archivos en su computadora.
 2. Abra el archivo `index.html` en su navegador web.
 3. Ingrese el texto que desea cifrar o descifrar en el área de texto proporcionada.
-4. Haga clic en el botón "Cifrar" para cifrar el texto ingresado, o en el botón "Descifrar" para descifrar el texto cifrado.
-5. El resultado se mostrará en la sección de resultados debajo del área de texto.
+4. Haga clic en el botón `Encriptar` para cifrar el texto ingresado, o en el botón `Desencriptar` para descifrar el texto cifrado.
+5. El resultado se mostrará en la parte derecha si estas en PC o abajo de los botones si estas en un dispositivo movil
 6. Haga clic en el botón "Copiar" para copiar el resultado al portapapeles.
 
 ## Limitaciones
